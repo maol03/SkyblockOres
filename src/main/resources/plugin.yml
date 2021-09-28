@@ -1,0 +1,6 @@
+name: SkyblockOres
+description: Take ores into your Skyblock world, in a brilliant way!
+version: 2.0.1
+main: se.maol.skyblockores.SkyblockOres
+author: Martin Olofsson (maol3)
+api-version: 1.17

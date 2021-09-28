@@ -1,0 +1,21 @@
+#SkyblockOres 2.0
+#Default Configuration
+
+BlockTypes:
+  #Replace world with your world's name
+  #Add multiple worlds with different settings if you want
+  world:
+    #Permission groups, different materials
+    #The LAST group that the player has permission to will be used
+    #All numbers must add upp to 100 per group
+    Default:
+      COBBLESTONE: 1000
+
+#Translate the chat messages here
+Localization:
+  YouHaveDefault: '&eYou are in the default group.'
+  YouHavePermission: '&eYou are in group &6%permission%&e.'
+  YourRates: '&eYou have the following chances in the cobblestone generator:'
+  YourRatesRow: '&3%material%: &f%chance%'
+  ConfigReloaded: '&aThe configuration has been reloaded.'
+  NoPermission: '&cSorry, you do not have access to this command.'
